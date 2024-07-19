@@ -1,0 +1,89 @@
+.navbar{
+    width: 100%;
+}
+
+.user{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.addGetUser{
+    margin-left: -65%;
+}
+
+.userSetion{
+    margin: 10px;
+    background-image: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+    height: 50vh;
+    overflow: scroll;
+}
+
+.userSetion div{
+    /*display: flex;*/
+    /*justify-content: center;*/
+    /*align-items: center;*/
+}
+
+.movie{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    margin-top: 10px;
+}
+.addGetMovie{
+    margin-left: -63%;
+}
+
+.movieSection{
+    margin: 10px;
+    background-image: linear-gradient(90deg, #8ec5fc 30%, #e0c3fc 90%);
+    height: 50vh;
+    overflow: scroll;
+}
+
+.addUserBlock{
+    border-radius: 15px;
+    /*background-color: aqua;*/
+    font-weight: bold;
+}
+
+.new-form{
+    margin: 30px auto;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    height: 70vh;
+    width: 500px;
+    background-image: linear-gradient(to top, #c1dfc4 0%, #deecdd 100%);
+}
+
+.new-form div{
+    display: flex;
+    flex-flow: column;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+.new-form div label{
+    font-family: Verdana;
+}
+.new-form div input{
+    width: 370px;
+}
+
+#addUserButton{
+    margin: 10px;
+    padding: 5px;
+    border-radius: 7px;
+    width: 100px;
+    background-image: linear-gradient(to top, #a3bded 0%, #6991c7 100%);
+}
+#addUserButton:hover{
+    box-shadow: 3px 6px 5px 2px;
+}
+
+
